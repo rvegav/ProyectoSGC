@@ -16,6 +16,6 @@ Route::post('/herramientas', ['as' => 'herramientas.store', 'uses' => 'Herramien
 Route::get('documentos', ['as' => 'documentos.create', 'uses' => 'DocumentosController@create']);
 
 Route::get('usuarios', function(){
-	return view('usuarios.create_usuarios');
+	return view('usuarios.create');
 });
 
